@@ -29,3 +29,4 @@ IF that condition is met, we set the name (and only the name) to a 'winner'
 variable.
 outside of the hash iteration, but still without our method we return 'winner'
 the name of our lucky winner.
+=end
