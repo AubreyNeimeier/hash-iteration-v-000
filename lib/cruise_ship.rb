@@ -17,3 +17,8 @@ def select_winner(passengers)
 
   winner
 end
+
+=begin How to about this code colliqually:
+We iterate through this hash with #each. We chose #each because it gives us
+additionally flexibility to return just the NAME of the winner, rather than the
+entire key value pair.
