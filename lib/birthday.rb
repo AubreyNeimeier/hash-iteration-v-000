@@ -16,8 +16,9 @@ end
 #keywords by assigning the variables in between the pipes to be
 #the placeholders for each key/value pair.
 
-#yeild in this case. the each method which iterates thru the hash,
-#and this #each method also has a yield statement.
-# the yeild statement uses placeholder variables to pass the hash key/value pairs
-#to the specific code to be executed in the block. The block executes, then returns to
-#the each method to begin the next iteration.   contains a yeild command,
+#yeild in this case.
+#the each method iterates thru the hash and this #each method also has a yield
+#statement. The yeild statement uses placeholder variables to pass the hash
+#key/value pair it is currently iterating on to the specific code to be executed
+#in the block. The block executes, then returns to the each method to begin the
+#next iteration.
