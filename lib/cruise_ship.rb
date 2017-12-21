@@ -18,7 +18,14 @@ def select_winner(passengers)
   winner
 end
 
-=begin How to about this code colliqually:
+=begin How to talk about this code colliqually:
 We iterate through this hash with #each. We chose #each because it gives us
 additionally flexibility to return just the NAME of the winner, rather than the
 entire key value pair.
+inside our iteration, we use an if statement combined with the && "and"
+boolean operator to check if we have the right suite, AND that the name
+begins with an a.
+IF that condition is met, we set the name (and only the name) to a 'winner'
+variable.
+outside of the hash iteration, but still without our method we return 'winner'
+the name of our lucky winner.
